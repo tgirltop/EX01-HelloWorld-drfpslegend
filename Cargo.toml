@@ -10,4 +10,4 @@ tokio = { version = "1", features = ["full"] }
 anyhow = "1.0"
 ethers = "1.0.2"
 ethers-contract-abigen = ">=2.0.1"
-req
+reqwest = {
