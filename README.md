@@ -18,3 +18,7 @@ For the RPC, i suggest Alchemy or Infura.
 NB : Swaping function is not finished for the moment ! Gonna focus on this point, using ethers-crate.
 
 Of course you have to `cargo update` to get all your dependencies working.
+
+TO DO :
+  - Adding bash script to directly enter Adress and endpoint in a Shell prompt
+  - Swap function
