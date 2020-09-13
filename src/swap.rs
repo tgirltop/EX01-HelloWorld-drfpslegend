@@ -1,4 +1,4 @@
 //use reqwest::Error;
 //************************** Sending a single transaction ************************************** 
 
-use web3::types::{TransactionR
+use web3::types::{TransactionRequest};
