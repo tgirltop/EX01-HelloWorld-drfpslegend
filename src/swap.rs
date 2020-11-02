@@ -11,4 +11,4 @@ async fn send_eth_transaction(
     _metamask_private_key: &str,
     _recipient_address: &str,
     _amount: u64,
-) -> Result<(), Box<dyn std::er
+) -> Result<(), Box<dyn std::error::E
