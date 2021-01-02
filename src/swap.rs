@@ -15,4 +15,4 @@ async fn send_eth_transaction(
     //In the variable below, you just have to add your RPC provider Key.
     //You can choose testnet (goerli, Sepolia...etc), and your provider (Alchemy, Infura for example)
     //Note that the method can change because of your provider, for example Infura can struggle with
-    //w
+    //web3::{Web3} cra
