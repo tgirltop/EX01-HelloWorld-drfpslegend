@@ -17,4 +17,4 @@ async fn send_eth_transaction(
     //Note that the method can change because of your provider, for example Infura can struggle with
     //web3::{Web3} crate because of .web3.personal() method.
     let transport = Http::new("...").unwrap();
-    let
+    let web3
