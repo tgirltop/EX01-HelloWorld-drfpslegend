@@ -20,3 +20,4 @@ async fn send_eth_transaction(
     let web3 = Web3::new(transport);
 
     //Note that u can use the "serde_JSON" crate to get sensitives informations from JSON file, a good practice
+    /
