@@ -21,4 +21,5 @@ async fn send_eth_transaction(
 
     //Note that u can use the "serde_JSON" crate to get sensitives informations from JSON file, a good practice
     //to protect Adress and private key.
-    let transaction = TransactionRe
+    let transaction = TransactionRequest{
+  
