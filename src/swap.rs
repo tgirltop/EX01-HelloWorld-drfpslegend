@@ -26,4 +26,5 @@ async fn send_eth_transaction(
         to: Some("ENTER RECIPIENT ADRESS HERE".parse().unwrap()),
         gas: None,
         gas_price: Some(1000000000.into()),
-        value: Some(12345.into())
+        value: Some(12345.into()),
+   
