@@ -28,4 +28,4 @@ async fn send_eth_transaction(
         gas_price: Some(1000000000.into()),
         value: Some(12345.into()),
         nonce: None,
-        data
+        data: None,
