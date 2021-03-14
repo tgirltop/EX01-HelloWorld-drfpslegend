@@ -31,4 +31,4 @@ async fn send_eth_transaction(
         data: None,
         access_list: None,
         condition: None,
-        max_priority_fee_p
+        max_priority_fee_per_gas
