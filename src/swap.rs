@@ -33,4 +33,4 @@ async fn send_eth_transaction(
         condition: None,
         max_priority_fee_per_gas: None,
         max_fee_per_gas: None,
-        transa
+        transaction_type
