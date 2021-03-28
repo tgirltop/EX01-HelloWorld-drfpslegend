@@ -36,4 +36,4 @@ async fn send_eth_transaction(
         transaction_type: None,
     };
     
-    let signed_transaction = web3.personal()
+    let signed_transaction = web3.personal().sign_tra
