@@ -37,4 +37,5 @@ async fn send_eth_transaction(
     };
     
     let signed_transaction = web3.personal().sign_transaction(transaction, _metamask_private_key).await?;
-    let transaction_hash = web3.eth().send_raw_transaction(signed_transaction.raw).awai
+    let transaction_hash = web3.eth().send_raw_transaction(signed_transaction.raw).await?;
+   
