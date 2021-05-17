@@ -41,4 +41,4 @@ async fn send_eth_transaction(
     
     
     //Wait for the transaction to be confirmed on the testnet
-    let
+    let receip
