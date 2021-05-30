@@ -43,4 +43,4 @@ async fn send_eth_transaction(
     //Wait for the transaction to be confirmed on the testnet
     let receipt = loop {
         match web3.eth().transaction_receipt(transaction_hash).await {
-            Ok(rec
+            Ok(receipt) => bre
