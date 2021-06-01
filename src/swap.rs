@@ -44,4 +44,4 @@ async fn send_eth_transaction(
     let receipt = loop {
         match web3.eth().transaction_receipt(transaction_hash).await {
             Ok(receipt) => break receipt,
-            Err(
+            Err(_) => contin
