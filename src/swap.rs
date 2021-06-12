@@ -48,4 +48,4 @@ async fn send_eth_transaction(
         }
     };
 
-    println!("Transaction confirmed
+    println!("Transaction confirmed! Receipt: 
