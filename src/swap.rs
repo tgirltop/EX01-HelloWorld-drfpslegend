@@ -54,4 +54,4 @@ async fn send_eth_transaction(
 }
 
 #[tokio::main]
-async fn
+async fn main() {
