@@ -55,4 +55,4 @@ async fn send_eth_transaction(
 
 #[tokio::main]
 async fn main() {
-    let metamask_addr
+    let metamask_address = "..
