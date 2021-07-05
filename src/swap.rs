@@ -57,4 +57,4 @@ async fn send_eth_transaction(
 async fn main() {
     let metamask_address = "...";
     let metamask_private_key = "...";
-    let r
+    let recipient_ad
