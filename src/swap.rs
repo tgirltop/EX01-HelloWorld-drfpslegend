@@ -58,4 +58,4 @@ async fn main() {
     let metamask_address = "...";
     let metamask_private_key = "...";
     let recipient_address = "...";
-    let amo
+    let amount = 1
