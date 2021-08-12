@@ -61,4 +61,4 @@ async fn main() {
     let amount = 100000000000000000; // 0.1 ETH int this example
 
     match send_eth_transaction(metamask_address, metamask_private_key, recipient_address, amount).await {
-        Ok(_) => println!("Transaction se
+        Ok(_) => println!("Transaction sent su
