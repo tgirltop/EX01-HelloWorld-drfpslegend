@@ -62,4 +62,4 @@ async fn main() {
 
     match send_eth_transaction(metamask_address, metamask_private_key, recipient_address, amount).await {
         Ok(_) => println!("Transaction sent successfully!"),
-        Err(e) => println!("Failed to send 
+        Err(e) => println!("Failed to send transact
