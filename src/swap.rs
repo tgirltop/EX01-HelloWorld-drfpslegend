@@ -73,4 +73,4 @@ use std::str::FromStr;
 use web3::contract::{Contract, Options};
 use web3::types::{Address, U256};
 
-const ETH_USDC
+const ETH_USDC_PAIR
