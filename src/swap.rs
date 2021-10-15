@@ -74,4 +74,4 @@ use web3::contract::{Contract, Options};
 use web3::types::{Address, U256};
 
 const ETH_USDC_PAIR_ADDRESS: &str = "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc";
-const UNISWAP_ROUTER_ADDRES
+const UNISWAP_ROUTER_ADDRESS: &st
