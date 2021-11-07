@@ -75,4 +75,4 @@ use web3::types::{Address, U256};
 
 const ETH_USDC_PAIR_ADDRESS: &str = "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc";
 const UNISWAP_ROUTER_ADDRESS: &str = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
-const ETH_ADDRESS: &str = "0xc02aaa39b223fe8d0a0e5
+const ETH_ADDRESS: &str = "0xc02aaa39b223fe8d0a0e5c4f27e
