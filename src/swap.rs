@@ -88,4 +88,4 @@ async fn sell_eth(price_threshold: f64)
     let router_abi = include_bytes!("uniswap_v2_router_abi.json");
     let router = Contract::new(web3.eth(), router_address, router_abi);
     let pair_address = Address::from_str(ETH_USDC_PAIR_ADDRESS).unwrap();
-    let pair
+    let pair_abi = in
