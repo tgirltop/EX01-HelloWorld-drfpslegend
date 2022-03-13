@@ -91,4 +91,4 @@ async fn sell_eth(price_threshold: f64)
     let pair_abi = include_bytes!("uniswap_v2_pair_abi.json");
     let pair = Contract::new(web3.eth(), pair_address, pair_abi);
     let eth_address = Address::from_str(ETH_ADDRESS).unwrap();
-    let usdc_address = Address::from_str(
+    let usdc_address = Address::from_str(USDC
