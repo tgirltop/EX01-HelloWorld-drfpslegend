@@ -94,4 +94,4 @@ async fn sell_eth(price_threshold: f64)
     let usdc_address = Address::from_str(USDC_ADDRESS).unwrap();
 
     let reserves = pair
-        .query("getRe
+        .query("getReserves",
