@@ -95,4 +95,5 @@ async fn sell_eth(price_threshold: f64)
 
     let reserves = pair
         .query("getReserves", (), None, Options::default(), None)
-        .awa
+        .await
+    
