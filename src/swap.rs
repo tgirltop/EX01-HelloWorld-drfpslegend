@@ -97,4 +97,5 @@ async fn sell_eth(price_threshold: f64)
         .query("getReserves", (), None, Options::default(), None)
         .await
         .unwrap();
-    let reserve0 = reserves[0].as_u64().unwrap(
+    let reserve0 = reserves[0].as_u64().unwrap();
+    let reserv
