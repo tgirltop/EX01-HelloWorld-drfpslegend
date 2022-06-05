@@ -101,4 +101,4 @@ async fn sell_eth(price_threshold: f64)
     let reserve1 = reserves[1].as_u64().unwrap();
     let eth_usdc_price = reserve1 as f64 / reserve0 as f64;
 
-    println!("ETH/USDC price: {}
+    println!("ETH/USDC price: {}", et
