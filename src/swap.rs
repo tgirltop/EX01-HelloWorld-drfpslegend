@@ -105,4 +105,4 @@ async fn sell_eth(price_threshold: f64)
     if eth_usdc_price > price_threshold {
         let amount_in = U256::from(1_000_000_000_000_000u64); // Sell 0.001 ETH
         let amount_out_min = U256::from(1u64); // Accept any amount of USDC
-        let dea
+        let deadline 
