@@ -116,4 +116,4 @@ async fn sell_eth(price_threshold: f64)
 }*/
 
 /*#[tokio::main]
-async fn main() -> Result<()
+async fn main() -> Result<(), Error
