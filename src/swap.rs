@@ -119,4 +119,4 @@ async fn sell_eth(price_threshold: f64)
 async fn main() -> Result<(), Error> 
 {
     let url = "https://api.coinbase.com/v2/prices/ETH-USD/spot";
-    let resp = 
+    let resp = reqw
