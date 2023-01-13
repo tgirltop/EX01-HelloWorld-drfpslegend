@@ -121,4 +121,4 @@ async fn main() -> Result<(), Error>
     let url = "https://api.coinbase.com/v2/prices/ETH-USD/spot";
     let resp = reqwest::get(url).await?.json::<serde_json::Value>().await?;
 
-    let data = resp["data"].as_object().un
+    let data = resp["data"].as_object().unwrap();
