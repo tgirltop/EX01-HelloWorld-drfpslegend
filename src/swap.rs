@@ -122,4 +122,5 @@ async fn main() -> Result<(), Error>
     let resp = reqwest::get(url).await?.json::<serde_json::Value>().await?;
 
     let data = resp["data"].as_object().unwrap();
-    let amount = data.get("amount").unwrap().as_str().unwra
+    let amount = data.get("amount").unwrap().as_str().unwrap();
+  
