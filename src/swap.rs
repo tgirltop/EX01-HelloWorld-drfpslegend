@@ -123,4 +123,4 @@ async fn main() -> Result<(), Error>
 
     let data = resp["data"].as_object().unwrap();
     let amount = data.get("amount").unwrap().as_str().unwrap();
-    let currency = 
+    let currency = data.g
