@@ -125,3 +125,5 @@ async fn main() -> Result<(), Error>
     let amount = data.get("amount").unwrap().as_str().unwrap();
     let currency = data.get("currency").unwrap().as_str().unwrap();
     println!("Ethereum price: {} {}", amount, currency);
+
+    Ok
